@@ -1,0 +1,12 @@
+﻿- Check for the boundry conditions, eg: 0, 1, etc.
+
+Known Bug:
+RandomCharGenerator.ListChar --> 
+.When Empty
+.Because it is public
+.If you try to access this List, even with a 0 argument
+-->It will crash with an Exception
+
+Known Solution: 
+"Dont do like this!" 
+:-)
